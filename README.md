@@ -1,5 +1,38 @@
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ASOS Weather Viewer 🌍
+
+An interactive web application to explore **ASOS (Automated Surface Observing System)** weather station data worldwide.  
+Built with **Next.js + React + TypeScript + React-Leaflet + Tailwind CSS**, powered by the **WindBorne Systems API**.
+
+---
+
+## ✨ Features
+
+- 🌐 **Interactive Map**: Explore ASOS stations globally (React-Leaflet + OpenStreetMap tiles).  
+- 📊 **Historical Data Table**: For each station, normalized display of:
+  - Temperature (°C)  
+  - Wind speed (knots, computed from `wind_x` / `wind_y` if needed)  
+  - Pressure (hPa, with altimeter conversion if only `alti` available)  
+- 🛡️ **Robust Data Handling**:
+  - Zod schemas validate API responses and coerce strings → numbers  
+  - Corrupted or incomplete rows filtered out automatically  
+- ⚡ **API Proxy with Cache & Retry**:
+  - Serverless route (`/api/windborne`) proxies WindBorne API calls  
+  - In-memory cache (60s) respects 20 calls/minute limit  
+  - Automatic retry with backoff for upstream hiccups  
+- 📱 **Responsive UI** with Tailwind CSS for modern styling.
+
+---
+
+## 🚀 Getting Started
+
+### Clone & Install
+```bash
+git clone https://github.com/Yanming99/asos-weather-viewer.git
+cd asos-weather-viewer
+npm install
+
 
 ## Getting Started
 
