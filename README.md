@@ -71,3 +71,36 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 =======
 # asos-weather-viewer
 >>>>>>> 3df43556b6121872f6a793656cce0a532db404b6
+>>>>>>>
+>>>>>>> 🔧 Tech Stack
+
+Frontend: Next.js (App Router, TypeScript), Tailwind CSS
+
+Mapping: React-Leaflet + Leaflet
+
+Validation: Zod
+
+Backend Proxy: Next.js API Route
+
+Deployment: Vercel
+
+📡 Data Source
+
+WindBorne Systems ASOS API
+
+/stations → list of stations
+
+/historical_weather?station={id} → historical data
+
+👤 Author
+
+Yanming Luo
+
+GitHub: Yanming99
+
+Email: your.email@example.com
+
+📜 License
+
+MIT License
+Data © WindBorne Systems
