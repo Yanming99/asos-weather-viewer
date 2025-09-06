@@ -70,9 +70,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 =======
 # asos-weather-viewer
->>>>>>> 3df43556b6121872f6a793656cce0a532db404b6
->>>>>>>
->>>>>>> 🔧 Tech Stack
+
+🔧 Tech Stack
 
 Frontend: Next.js (App Router, TypeScript), Tailwind CSS
 
@@ -98,7 +97,7 @@ Yanming Luo
 
 GitHub: Yanming99
 
-Email: your.email@example.com
+Email: luoyanming99@gmail.com
 
 📜 License
 
